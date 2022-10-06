@@ -1,0 +1,66 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+flex-wrap: wrap;
+    padding: 10px;
+}
+
+.giallo {
+    width: 250px;
+    height: 150px;
+    background-color: #FBFBC9;
+    margin: 20px;
+    transform: rotate(-6deg);
+    
+    
+}
+
+.verde {
+    width: 250px;
+    height: 150px;
+    background-color: #C9F9C9;
+    margin: 20px;
+    transform: rotate(6deg);
+}
+
+.viola {
+    width: 250px;
+    height: 150px;
+    background-color: #C7C6F2;
+    margin: 20px;
+    transform: rotate(-6deg);
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 2em;
+    text-align: center;
+}
+
+.giallo:hover {
+    
+
+    transform: rotate(0deg);
+    transform:scale(1.2);
+   
+}
+.viola:hover {
+    
+  
+    transform: rotate(0deg);
+    transform:scale(1.2);
+   
+}
+.verde:hover {
+
+    
+    transform: rotate(0deg);
+    transform:scale(1.2);
+   
+}
